@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefeny's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">W</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="intro-text">
+                <h1>I am a passionate web developer eager to create dynamic and user-friendly websites.</h1>
+                <p>Hi, I'm Devisreesai, a fresher web developer excited to learn and grow in the tech world.</p><br/>
+                <p>I enjoy tackling new challenges and building solutions that make a difference.</p>
+                <a href="C:\Users\Rajur\Downloads\ilovepdf_pages-to-jpg\res_page-0001.jpg" class="download-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Devisreesai, a web developer with a passion for creating engaging and user-friendly websites. Eager to learn and grow, I’m excited to tackle new challenges in web development!</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Calculator</h3>
+                <img src="C:\Users\Rajur\OneDrive\Pictures\Screenshots\Screenshot 2024-09-23 214633.png" alt="Project Description">
+                <p>A calculator is a device or software used to perform mathematical calculations.</p>
+                <a href="file:///C:/Users/Rajur/OneDrive/Desktop/CAL.HTML" class="project-link">View Project</a>
+            </div>
+            <div class="project">
+                <h3>SOS GAME</h3>
+                <img src="C:\Users\Rajur\OneDrive\Pictures\Screenshots\Screenshot 2024-09-23 224217.png" alt="Another Project Description">
+                <p>SOS is a simple grid-based game played on a 3x3 board.</p>
+                <a href="file:///C:/Users/Rajur/OneDrive/Desktop/sos.html" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="" method="post" onsubmit="return showAlert();">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
